@@ -1,0 +1,95 @@
+@import '../app/app.css';
+
+.wish-list{
+    padding: 30px 20px;
+    /* background: var(--dark-background); */
+    box-shadow: var(--shadow);
+    background-image: url('./app-wish-list-img/flowers-orig5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right 90%;
+    
+}
+.list-group-item{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.082)!important;
+    background-color: rgb(250, 244, 229);
+    height: 60px;
+    border:none;
+    }
+.list-buttons-btn{
+    width: 30px !important;
+    height: 30px !important;
+    background-color: rgba(214, 194, 165, 0) !important;
+}
+.btn-light_delete{
+background-image: url('./app-wish-list-item-image/delete1.png');
+background-size: contain;
+background-repeat: no-repeat;
+}
+.btn-light_favorite{
+    background-image: url('./app-wish-list-item-image/star.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.btn-light_done{
+    background-image: url('./app-wish-list-item-image/done2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.list-buttons{
+width: 120px;
+
+}
+li{
+    font-size: 30px;
+}
+
+.wish-item{
+ display: block;
+ /* width: 450px; */
+ /* line-height: 110%; */
+}
+.list__category span{
+ color: rgb(223, 90, 130);
+}
+
+
+
+.done-item {
+    color: rgb(51, 124, 81);
+}
+.done-btn{
+    background-color: rgba(51, 124, 81, 0.178) !important; 
+} 
+.done-text {
+    text-decoration: line-through;
+}
+
+.priority-item{
+    color: rgb(255, 153, 0);
+}
+.priority-btn{
+    background-color: rgba(241, 176, 91, 0.486) !important;
+}
+::-webkit-scrollbar {
+    width: 8px;               /* ширина всей полосы прокрутки */
+    border-radius: 18px;
+   
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgba(66, 54, 29, 0);        /* цвет зоны отслеживания */
+    /* border-radius: 20px; */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0);    /* цвет бегунка */
+    z-index: 10;
+    border-radius: 28px;       /* округлось бегунка */
+    /* border: 3px solid rgb(255, 254, 253);   */
+  }
+
+  * {
+	scrollbar-color: #ffffff00 rgba(0, 0, 0, 0); /*Цвет скролла, цвет ползунка*/
+	scrollbar-width: thin; /*Толщина скролла thin, auto*/
+}

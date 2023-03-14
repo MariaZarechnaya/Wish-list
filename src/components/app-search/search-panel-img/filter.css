@@ -1,0 +1,12 @@
+.search-panel-filter{
+    padding-top: 20px;
+    position: relative;
+
+}
+
+.btn-group{
+    position: relative;
+    z-index: 3;
+    box-shadow: 0px 0px 14px 7px rgba(5, 59, 57, 0.219);
+    
+}

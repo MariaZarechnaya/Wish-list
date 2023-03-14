@@ -1,0 +1,43 @@
+
+@import '../app/app.css';
+
+
+.app__add-wish{
+    padding: 30px 20px;
+    /* background: var(--back-color); */
+    background-image: url('./app-add-wish-img/flowers-orig4.png');
+    background-position: 5% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+}
+
+.app__add-wish span{
+font-size: 40px;
+line-height: 100%;
+color: var(--title-color);
+}
+
+
+.app__add-wish__form-wrapper{
+    gap: 20px;
+    /* padding-top: 10px; */
+}
+.app__add-wish__form-wrapper input:nth-child(2){
+width: 150px;
+}
+
+input{
+    font-size: 40px;
+}
+.btn-add-wish{
+    box-shadow: 0px 0px 14px 7px rgba(81, 9, 9, 0.158);
+    background-color: rgba(255, 251, 244, 0.911) !important;
+}
+
+.darker{
+    background-color: rgba(0, 0, 0, 0.404);
+}

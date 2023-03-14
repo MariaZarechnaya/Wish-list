@@ -1,0 +1,28 @@
+@import '../app/app.css';
+
+.search-panel{
+    padding: 30px 20px;
+    /* background: var(--back-color); */
+    background-image: url('./search-panel-img/flowers-orig3.png');
+    /* background: var(--back-color); */
+    /* background-position:  left 50%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: var(--shadow);
+    position: relative;
+    margin-bottom: 30px;
+    background-position:right   top 30%;
+    
+}
+.search-section{
+background-color: var(--dark-background );
+padding: 25px 25px;
+border-radius: 5px;
+}
+
+
+.form-control{
+z-index: 3;
+position: relative;
+}
+
