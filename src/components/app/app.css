@@ -167,12 +167,31 @@ body{
 }
 
 
-@media (max-width:500px){
+@media (max-width:470px){
    .app{
-      width: 390px;
+      width: 400px;
    }
    .btn{
-      width: 100px;
+      width: 104px;
+   }
+   .wish-list::before {
+      width: 90%;
+  }
+  .wish-item{
+   width: 250px;
+  }
+  h1{
+   font-size: 80px;
+   margin-bottom: 25px;
+   letter-spacing: 0px;
+}
+}
+@media (max-width:425px){
+   .app{
+      width: 370px;
+   }
+   .btn{
+      width: 94px;
    }
    .wish-list::before {
       width: 90%;
@@ -187,9 +206,9 @@ body{
 }
 }
 
-@media (max-width:400px){
+@media (max-width:390px){
    .app{
-      width: 330px;
+      width: 345px;
    }
    header{
 
@@ -208,10 +227,10 @@ body{
       letter-spacing: 0px;
    }
    .btn{
-      width: 83px;
+      width: 88px;
    }
    .wish-list::before {
-      width: 88%;
+      width: 88.5%;
   }
   .wish-item{
    word-wrap: break-word;
