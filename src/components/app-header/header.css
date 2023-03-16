@@ -2,6 +2,7 @@
 @import '../app/app.css';
 header{
     background-image: url('./app-header-img/flowers-orig2.png');
+    background-color: rgb(221, 200, 172);
     background-repeat: no-repeat;
     background-size: cover;
     height: 285px;
@@ -28,6 +29,7 @@ header{
      
      
 }
+
 h1 {
     text-align: center;
     color: var(--title-color);
